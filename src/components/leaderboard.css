@@ -1,0 +1,19 @@
+html{
+    background-color: #082032;
+    
+}
+
+.table{
+    background-color: white;
+    border-color: red;
+    color: #082032;
+}
+thead{
+    height: 40px ;
+}
+.tableContainer{
+    position: absolute;
+    width: 50%;
+    left: 266px;
+    top: 200px;
+}
