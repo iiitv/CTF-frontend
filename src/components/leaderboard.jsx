@@ -22,6 +22,26 @@ export default function Leaderboard(){
             username:"KKJ the Almighty",
             level : 1,
             points : 0
+        },
+        {
+            username:"Chad Amandeep",
+            level : 11,
+            points : 110
+        },
+        {
+            username:"Ajay Nath",
+            level : 5,
+            points : 50
+        },
+        {
+            username:"Patika",
+            level : 4,
+            points : 40
+        },
+        {
+            username:"KKJ the Almighty",
+            level : 1,
+            points : 0
         }
     ]
     const renderUser = (user,index) => {
@@ -37,6 +57,10 @@ export default function Leaderboard(){
 
     return (
         <div className="main">
+            <div className="ctfHeader">
+            CTF
+            </div>
+            <div className="leaderboardHeader">Leaderboard</div>
             <div className="tableContainer">
             <table className="table table-bordered  table-responsive">
                 <thead >
