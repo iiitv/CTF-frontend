@@ -1,0 +1,82 @@
+.ctf-text {
+  color: white;
+  font-family: Russo One;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.ctf-text h1 {
+  position: absolute;
+  width: 187px;
+  height: 121px;
+  left: 626px;
+  top: 214px;
+  font-size: 100px;
+  line-height: 120px;
+  background: none;
+  text-decoration: underline;
+}
+
+.ctf-text h3 {
+  position: absolute;
+  width: 299px;
+  height: 48px;
+  left: 570px;
+  top: 335px;
+  font-size: 40px;
+  line-height: 48px;
+  background: none;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  padding: 40px;
+  width: 600px;
+  top: 60%;
+  left: 50%;
+  width: 666px;
+  height: 300px;
+  left: 387px;
+  top: 386px;
+
+  background: #ffffff;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.login-form h1 {
+  font-family: Russo One;
+  text-decoration: underline;
+  text-underline-offset: 6 px;
+}
+
+.login-form h1 {
+  background: none;
+}
+
+.input {
+  background: #082032;
+  border: 0;
+  border-radius: 20px;
+  padding: 12px 30px;
+}
+
+.submit {
+  background: none;
+  border: 0;
+  font-family: Russo One;
+}
+.submit:hover {
+  text-decoration: underline;
+}
+
+.box-container {
+  background: none;
+  padding: 10px;
+}
+
+.input::placeholder {
+  color: white;
+  font-family: Russo One;
+}

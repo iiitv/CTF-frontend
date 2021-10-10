@@ -3,6 +3,8 @@ import './Landing.css'
 import flag from '../Assets/flag.png'
 import rectangle from '../Assets/rectangle.png'
 import Button from './Button'
+import LoginPage from './LoginPage'
+import RegisterPage from './RegisterPage'
 
 function Landing() {
   return (
@@ -41,6 +43,8 @@ function Landing() {
         </h4>
         <button className='register'>Register</button>
       </div>
+      {/* <LoginPage /> */}
+      <RegisterPage />
     </div>
   )
 }
