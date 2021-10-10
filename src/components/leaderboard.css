@@ -1,51 +1,50 @@
-html{
-    background-color: #082032;
-    
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+html {
+  background-color: #082032;
 }
 
-.table{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: 600;
-    background-color: white;
-    border-color: #082032 !important;
-    color: #082032 !important;
-    border-radius: 30px;
-    margin-bottom: 80px;
+.table {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 600;
+  background-color: white;
+  border-color: #082032 !important;
+  color: #082032 !important;
+  border-radius: 30px;
+  margin-bottom: 80px;
 }
-thead{
-    height: 50px ;
-    font-size: 20px;
-    font-weight: 600;
+thead {
+  height: 50px;
+  font-size: 20px;
+  font-weight: 600;
 }
-.tableContainer{
-    position: absolute;
-    width: 80%;
-    left: 130px;
-    top: 366px;
-   
+.tableContainer {
+  position: absolute;
+  width: 80%;
+  left: 130px;
+  top: 366px;
 }
-.ctfHeader{
-    position: absolute;
-    width: 187px;
-    height: 121px;
-    left: 40%;
-    top: 145px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 100px;
-    line-height: 120px;
-    color: #FFFFFF;
+.ctfHeader {
+  position: absolute;
+  width: 187px;
+  height: 121px;
+  left: 40%;
+  top: 145px;
+  font-family: Russo One;
+  font-size: 100px;
+  line-height: 120px;
+  color: #ffffff;
 }
-.leaderboardHeader{
-    position: absolute;
-    width: 261px;
-    height: 48px;
-    left: 38%;
-    top: 266px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 40px;
-    line-height: 48px;
+.leaderboardHeader {
+  position: absolute;
+  width: 261px;
+  height: 48px;
+  left: 38%;
+  top: 266px;
+  font-family: Russo One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 48px;
 
-    color: #FFFFFF;
+  color: #ffffff;
 }
