@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Andika&display=swap');
+* {
+  background-color: #082032;
+}
+
+.landing {
+  margin-top: 40px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 40px;
+}
+
+.leaderboard {
+  /* position: absolute; */
+  width: 175px;
+  height: 29px;
+  margin-left: 40px;
+  top: 47px;
+  display: flex;
+  object-fit: fill;
+  font-family: Russo One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  color: white;
+  cursor: pointer;
+}
+
+.leaderboard h2:hover {
+  font-size: 33px;
+  color: gray;
+}
+
+.ctf-text {
+  color: white;
+  font-family: Russo One;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.ctf-text h1 {
+  position: absolute;
+  width: 187px;
+  height: 121px;
+  left: 626px;
+  top: 214px;
+  font-size: 100px;
+  line-height: 120px;
+  background: none;
+}
+
+.ctf-text h3 {
+  position: absolute;
+  width: 299px;
+  height: 48px;
+  left: 570px;
+  top: 335px;
+  font-size: 40px;
+  line-height: 48px;
+  background: none;
+}
+.flag {
+  padding-top: 250px;
+  top: 400px;
+  align-items: center;
+}
+
+.rectangle {
+  margin-top: -122px;
+}
+
+.about-us {
+  color: white;
+  margin: 40px 115px 110px 130px;
+}
+
+.about-us h2 {
+  border-bottom: 3px solid white;
+  text-align: left;
+  font-family: Russo One;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+}
+
+.about-us h4 {
+  font-family: Andika;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 39px;
+  padding-top: 20px;
+}
+
+.register {
+  background-color: white;
+  border: none;
+  padding: 16px 96px 16px 96px;
+  border-radius: 40px;
+  font-family: Russo One;
+  margin-top: 20px;
+  font-size: 24px;
+}
