@@ -44,7 +44,7 @@ function Landing() {
         <button className='register'>Register</button>
       </div>
       {/* <LoginPage /> */}
-      <RegisterPage />
+      {/* <RegisterPage /> */}
     </div>
   )
 }

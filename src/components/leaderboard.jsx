@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from './Button'
 import "./leaderboard.css"
 export default function Leaderboard(){
     // data from ranking API
@@ -56,7 +57,9 @@ export default function Leaderboard(){
     }
 
     return (
+        
         <div className="main">
+            <Button title='Register' />
             <div className="ctfHeader">
             CTF
             </div>
