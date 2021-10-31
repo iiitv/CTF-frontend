@@ -38,7 +38,7 @@ const Dropdown = () => {
                 <div className='dropdown'>
                   <div
                     style={{
-                      borderTop: '2px solid #808080 ',
+                      borderTop: '2px solid #808080  ',
                     }}
                   ></div>
                   <p>{item.Question}</p>

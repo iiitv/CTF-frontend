@@ -1,18 +1,19 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './LoginPage.css'
 import Button from './Button'
+import CTFhero from './CTFhero'
 
 function LoginPage() {
+  const [email, SetEmail] = useState('')
+  const [password, SetPassword] = useState('')
+  const [newentry, SetNewentry] = useState([])
+
+  const submitForm = () => {}
   return (
     <div className='login-page'>
-      <Button title='Register' />
-
-      <div className='ctf-text'>
-        <h1>CTF</h1>
-        <h3>Catch The Flag</h3>
-      </div>
+      <CTFhero />
       <div className='form-box'>
-        <form className='login-form'>
+        <form className='login-form' onSubmit={submitForm}>
           <h1>Login</h1>
           <label className='box-container'>
             <input
@@ -20,6 +21,8 @@ function LoginPage() {
               id='username'
               placeholder='Username'
               className='input'
+              value={email}
+              onChange={(e) => SetEmail(e.target.value)}
             />
           </label>
           <label className='box-container'>
@@ -28,6 +31,9 @@ function LoginPage() {
               id='username'
               placeholder='Password'
               className='input'
+              autoComplete='off'
+              value={password}
+              onChange={(e) => SetPassword(e.target.value)}
             />
           </label>
 

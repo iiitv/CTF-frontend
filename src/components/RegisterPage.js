@@ -1,15 +1,17 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './RegisterPage.css'
 import Button from './Button'
+import CTFhero from './CTFhero'
 
 function RegisterPage() {
+  const [email, SetEmail] = useState('')
+  const [username, SetUsername] = useState('')
+  const [password, SetPassword] = useState('')
+  const [newentry, SetNewentry] = useState([])
+
   return (
     <div className='register-page'>
-      <Button title='Login' />
-      <div className='ctf-text'>
-        <h1>CTF</h1>
-        <h3>Catch The Flag</h3>
-      </div>
+      <CTFhero />
       <div className='form-box'>
         <form className='login-form'>
           <h1>Register</h1>
@@ -20,6 +22,8 @@ function RegisterPage() {
               id='email'
               placeholder='Email'
               className='input'
+              value={email}
+              onChange={(e) => SetEmail(e.target.value)}
             />
           </label>
 
@@ -29,6 +33,8 @@ function RegisterPage() {
               id='username'
               placeholder='Username'
               className='input'
+              value={username}
+              onChange={(e) => SetEmail(e.target.value)}
             />
           </label>
           <label className='box-container'>
@@ -37,6 +43,8 @@ function RegisterPage() {
               id='username'
               placeholder='Password'
               className='input'
+              value={password}
+              onChange={(e) => SetEmail(e.target.value)}
             />
           </label>
 

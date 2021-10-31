@@ -1,0 +1,29 @@
+.ctf-text {
+  color: white;
+  font-family: Russo One;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.ctf-text h1 {
+  position: absolute;
+  width: 187px;
+  height: 121px;
+  left: 626px;
+  top: 214px;
+  font-size: 100px;
+  line-height: 120px;
+  background: none;
+  text-decoration: underline;
+}
+
+.ctf-text h3 {
+  position: absolute;
+  width: 299px;
+  height: 48px;
+  left: 570px;
+  top: 335px;
+  font-size: 40px;
+  line-height: 48px;
+  background: none;
+}
