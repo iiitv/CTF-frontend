@@ -1,0 +1,19 @@
+.button {
+  font-family: Russo One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  margin-right: 40px;
+  position: absolute;
+  width: 179px;
+  height: 62px;
+  left: 1100px;
+  top: 44px;
+}
+.button-title {
+  background-color: white;
+  border: none;
+  padding: 17px 54px 17px 54px;
+  border-radius: 40px;
+}

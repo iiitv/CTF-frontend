@@ -1,0 +1,33 @@
+.question h2 {
+  color: #082032;
+  font-family: Russo One;
+}
+
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.wrap {
+  margin-top: 25px;
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+.dropdown {
+  background: white;
+  font-family: Russo One;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+}

@@ -1,0 +1,63 @@
+.ctf-text {
+  color: white;
+  font-family: Russo One;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.ctf-text h1 {
+  position: absolute;
+  width: 187px;
+  height: 121px;
+  left: 626px;
+  top: 214px;
+  font-size: 100px;
+  line-height: 120px;
+  background: none;
+  text-decoration: underline;
+}
+
+.ctf-text h3 {
+  position: absolute;
+  width: 299px;
+  height: 48px;
+  left: 570px;
+  top: 335px;
+  font-size: 40px;
+  line-height: 48px;
+  background: none;
+}
+
+.line {
+  height: 2px;
+  border-width: 0;
+  color: gray;
+  background-color: gray;
+}
+
+.question h2 {
+  color: #082032;
+  font-family: Russo One;
+}
+
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.wrap {
+  margin-top: 25px;
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
